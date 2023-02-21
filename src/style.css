@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 html {
   box-sizing: border-box;
@@ -8,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Dm mono', sans-serif;
+  font-family: 'Raleway', 'Dm mono', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -174,7 +176,7 @@ a {
   height: 3.125em;
   color: teal;
   font-size: 1rem;
-  font-family: "Dm mono";
+  font-family: "Raleway";
   cursor: pointer;
   border-width: 1px;
 }
@@ -482,4 +484,21 @@ textarea {
 
 .contact-img {
   padding-top: 4em;
+}
+
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  color: teal;
+  padding-top: 100px;
+}
+
+.msg {
+  margin: 20px 0;
 }
