@@ -22,7 +22,7 @@ body {
 
 /* light-dark */
 .dark a {
-  color:teal;
+  color: white;
 }
 
 .dark a:hover, .dark a:focus {
