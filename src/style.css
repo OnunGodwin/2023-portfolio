@@ -83,9 +83,10 @@ body {
  /* Navbar */
 Navbar {
   display: flex;
-  flex-direction: row;
-  padding: 2rem;
-  border-bottom: 1px solid black;
+  align-items:center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 20px;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -99,45 +100,6 @@ a {
 
 .topnav {
   overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.fa-bars {
-  color: teal !important;
-}
-
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 }
 
 /* About */
@@ -501,4 +463,16 @@ textarea {
 
 .msg {
   margin: 20px 0;
+}
+
+.tiny-socials {
+  border: none;
+  background-color: inherit;
+  width: 50px;
+}
+
+.tiny {
+  display: flex;
+  flex-direction: row;
+  
 }
